@@ -1,2 +1,2 @@
-<h1> Hi </h1>
-<h2> I love Misu </h2>
+<h1> Hi my name is Kenny Truong </h1>
+<h2> Website is coming soon </h2>
