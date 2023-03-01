@@ -9,7 +9,7 @@
     <li> Here is my <a href="https://www.linkedin.com/in/kenny-truong-2803kt/">LinkedIn</a>
     <li> Here is my <a href="https://github.com/kennytruoong/Python-project">Github</a>
     <li> Here is my <a href="https://replit.com/@kennytruoong"> Replit</a>
-   </ul>
+  </ul>
  <section>
 <h2> In the process... </h2>
 <img src="https://arc-tech.co.za/wp-content/uploads/2020/08/ARC-Technology-Slow-Website-Speed_blog-feature_resized-1080x675.png">
