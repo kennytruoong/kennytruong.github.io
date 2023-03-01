@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <h1> Welcome to my website</h1>
 <section>
 <!-- Introduction -->
