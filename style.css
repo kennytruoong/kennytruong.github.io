@@ -127,10 +127,6 @@ header nav ul a {
     font-size: 20px;
 }
 
-.message {
-    padding: 50px 40%;
-}
-
 .message textarea {
     background-color: rgb(220, 190, 150);
 }
