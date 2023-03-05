@@ -52,33 +52,6 @@ header nav ul a {
 }
 
 /* About page */
-/* Split page into half */
-.split {
-    height: 100%;
-    width: 50%;
-    position: fixed;
-  }
-
-.left {
-    left: 0;
-}
-  
-.right {
-    right: 0;
-}
-  
-.photo{
-    position: absolute;
-    top: 43%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-  
-.photo img {
-    max-width: 350px;
-}
-
 /* Biography */
 .biography {
     background-color:rgb(220, 190, 150);
@@ -97,23 +70,34 @@ header nav ul a {
 }
 
 /* Box Link */
-.boxlink {
-    text-align: center;
-    padding: 5px;
-    font-size: 30px;
-
-}
 
 .LinkedIn, .LinkedIn a {
     color: rgb(60, 110, 210);
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
 }
 
 .Github, .Github a {
-    color: black
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px;
 }
 
 .Replit, .Replit a {
     color: rgb(255, 130, 0);
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px;
+}
+
+.photo {
+    float: left;
+    width: 350px;
+    margin-right: 200px;
+    margin-left: 150px;
+    margin-bottom: 50px;
 }
 
 /* Contact Information */
