@@ -75,7 +75,7 @@ header nav ul a {
     color: rgb(60, 110, 210);
     text-align: center;
     font-size: 30px;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .Github, .Github a {
@@ -94,9 +94,9 @@ header nav ul a {
 
 .photo {
     float: left;
-    width: 350px;
-    margin-right: 200px;
-    margin-left: 150px;
+    width: 400px;
+    padding-left: 10%;
+    padding-right: 15%;
     margin-bottom: 50px;
 }
 
