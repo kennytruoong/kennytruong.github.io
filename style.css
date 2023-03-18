@@ -75,21 +75,28 @@ header nav ul a {
     color: rgb(60, 110, 210);
     text-align: center;
     font-size: 30px;
-    padding-top: 100px;
+    padding-top: 75px;
 }
 
 .Github, .Github a {
     color: black;
     text-align: center;
     font-size: 30px;
-    padding-top: 100px;
+    padding-top: 75px;
 }
 
 .Replit, .Replit a {
     color: rgb(255, 130, 0);
     text-align: center;
     font-size: 30px;
-    padding-top: 100px;
+    padding-top: 75px;
+}
+
+.Resume, .Resume a {
+    color: green;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 75px;
 }
 
 .photo {
