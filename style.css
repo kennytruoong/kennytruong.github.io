@@ -8,13 +8,12 @@ a {
 }
 
 body {
-    background-color: bisque;
+    background-color:rgb(40, 40, 40) ;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: blanchedalmond;
     width: 100%;
     height: 100px;
 }
@@ -34,99 +33,80 @@ header nav ul li {
 
 header nav ul a {
     text-decoration: none;
-    color:black;
+    color:rgb(200, 200, 200);
     font-size: 17.5px;
     font-weight: 750;
 }
 
-/* Index page */
-.welcome {
-    text-align: center;
-    color: rgb(190, 100, 10);
+/* Home page */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
 }
 
-.introduction {
-    font-size: 50px;
-    padding-top: 150px;
-    color: rgb(190, 100, 10);
+.left {
+    left: 0;
 }
 
-/* About page */
-/* Biography */
+.right {
+    right: 0;
+}
+
 .biography {
-    background-color:rgb(220, 190, 150);
-    margin: 20px;
-    padding: 3px 20px;
-    border: 10px solid rgb(210, 155, 95);
+    position: absolute;
+    top: 25%;
+    right: 5%
 }
 
-.biography h2 {
-    text-align: center;
+.biography h1 {
+    color: rgb(200, 200, 200);
+    
+}
+
+.kenny {
+    color:rgb(105, 185, 105);
 }
 
 .biography p {
     text-align: justify;
     font-size: 20px;
+    line-height: 1.5;
+    color: rgb(220, 220, 220);
+}
+
+.picture {
+    width: 375px;
+    height: 500px;
+    box-shadow: 20px 20px 30px rgb(20, 20, 20);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 /* Box Link */
-
-.LinkedIn, .LinkedIn a {
+.LinkedIn i, .LinkedIn a {
     color: rgb(60, 110, 210);
-    text-align: center;
-    font-size: 30px;
-    padding-top: 75px;
+    text-align: center; 
 }
 
-.Github, .Github a {
-    color: black;
+.Github i, .Github a {
+    color: rgb(160, 40, 125);
     text-align: center;
-    font-size: 30px;
-    padding-top: 75px;
 }
 
-.Replit, .Replit a {
+.Replit i, .Replit a {
     color: rgb(255, 130, 0);
     text-align: center;
-    font-size: 30px;
-    padding-top: 75px;
 }
 
-.Resume, .Resume a {
-    color: green;
-    text-align: center;
-    font-size: 30px;
-    padding-top: 75px;
-}
-
-.photo {
-    float: left;
-    width: 400px;
-    padding-left: 10%;
-    padding-right: 15%;
-    margin-bottom: 50px;
-}
-
-/* Contact Information */
-
-.information {
-    text-align: center;
-}
-
-.information p {
-    padding: 10px;
-    font-size: 20px;
-}
-
-.message textarea {
-    background-color: rgb(220, 190, 150);
-}
-
-.message ::placeholder {
-    color: black;
-}
-
-/* Projects */
+/* Portfolio page */
 .python-project {
     width: 200px;
     display: inline-block;
@@ -138,27 +118,65 @@ header nav ul a {
 .python-project-title {
     text-align: center;
     font-size: 50px;
+    background: linear-gradient(to right, rgb(80, 135, 215) 10%, rgb(210, 170, 10));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .python-project img {
     width: 300px;
-    border: 10px solid rgb(210, 155, 95);
+    border: 5px solid  rgb(200, 200, 200);
 }
 
 .python-project img:hover {
     text-align: center;
-    border: 10px solid rgb(175, 110, 35);
+    border: 5px solid rgb(80, 135, 215);
 }
 .python-project p {
     text-align: center;
     width: 300px;
     font-size: 20px;
+    color:  rgb(200, 200, 200);
 }
 
 
-.javascript-project-title {
+.js-project-title {
     text-align: center;
     font-size: 50px;
+    background: linear-gradient(to right, rgb(130, 110, 0) 5%, rgb(255, 245, 110));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
+.js-project {
+    color:  rgb(200, 200, 200);
+}
 
+/* Contact */
+
+.information-text p {
+    text-align: center;
+    color:rgb(200, 200, 200);
+}
+
+.information-text h1 {
+    text-align: center;
+    color:rgb(105, 185, 105);
+}
+
+.message {
+    text-align: center;
+    color:rgb(105, 185, 105);
+}
+
+/* Resume */
+.resume-pic {
+    height: 700px;
+    width: 600px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
